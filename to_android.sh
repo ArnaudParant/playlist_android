@@ -7,7 +7,7 @@ SSD="storage/emulated/0/"
 
 function usage()
 {
-    echo -e "Usage:\t$0 xfps_playlist_path xfps_output_path local_root remote_root"
+    echo -e "Usage:\t$0 xspf_playlist_path xspf_output_path local_root remote_root"
     echo -e "\t -s, --ssd :\t convert path to store on ssd"
 }
 
