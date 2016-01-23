@@ -1,0 +1,20 @@
+### Usage ###
+
+    ./to_android.sh xspf_playlist_path xspf_output_path local_root remote_root
+        -s, --ssd :     convert path to store on ssd
+
+### EXPLANATION ###
+
+    xspf_playlist_path :        xspf playlist you would like to convert
+
+    xspf_output_path :          converted file location
+
+    local_root :                for window playlist precise the letter
+                                Allow as well to fix the path differences:
+                                 - like 'My music' to 'Music'
+
+    remote_root :               path on your device
+
+### Example ###
+
+./to_android.sh random2.xspf random3.xspf --ssd "E:/Mes documents/My Music" "Music"
